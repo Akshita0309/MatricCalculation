@@ -68,15 +68,16 @@ def main():
                     print(" Determinant only for square matrices.")
 
             elif choice == "6":
-                print("👋 Exiting Matrix Operations Tool.")
+                print(" Exiting Matrix Operations Tool.")
                 break
 
             else:
                 print(" Invalid choice. Try again.")
 
         except Exception as e:
-            print("⚠ Error:", e)
+            print(" Error:", e)
 
 if __name__ == "__main__":
     main()
+
 
